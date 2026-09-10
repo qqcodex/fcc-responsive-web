@@ -1,8 +1,23 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
 
-h1 {
-  color: darkblue;
+
+header .container {
+/* background: linear-gradient(45deg, #FF6B6B, #4ECDC4); */
+
+/* Radial Gradient */
+/* background: radial-gradient(circle, #FF6B6B, #4ECDC4); */
+
+/* Conic Gradient */
+  background: conic-gradient(from 0deg, #FF6B6B, #4ECDC4);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border: 2px solid #333;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  /* box-shadow: offset-x offset-y blur-radius spread-radius color inset; */
+
+  visibility: visible;
 }
